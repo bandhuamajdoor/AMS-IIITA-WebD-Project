@@ -3,6 +3,14 @@ body {
   line-height: 1.6;
 }
 
+.navbar {
+  background-color: #05445E;
+}
+
+.nav-link {
+  color: #fff;
+}
+
 h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
@@ -22,17 +30,97 @@ footer {
 }
 
 .carousel-item img {
-  height: 70vh; /* Adjust the height of the slideshow */
+  height: 80vh; /* Adjust the height of the slideshow */
   object-fit: cover;
 }
 
 .carousel-caption h5 {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
 .carousel-caption p {
   font-size: 1.2rem;
+  font-style: italic;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
+
+/* Dim the slideshow images */
+.carousel-inner img {
+  filter: brightness(50%); /* Dims the background image */
+  object-fit: cover;
+  height: 100vh; /* Set consistent height for the carousel */
+}
+
+/* Overlay text styling */
+.carousel-overlay {
+  z-index: 10; /* Ensure it appears above everything in the carousel */
+  width: 80%; /* Constrain text width for better readability */
+}
+
+.carousel-overlay h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8); /* Shadow for text readability */
+}
+
+.carousel-overlay p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-overlay h1 {
+      font-size: 2rem;
+  }
+
+  .carousel-overlay p {
+      font-size: 1.2rem;
+  }
+}
+
+#about-us h2 {
+  font-size: 2.5rem;
+  color: #000000; /* Primary color */
+  text-align: left; /* Align heading to the left */
+}
+
+#about-us hr {
+  border: 0;
+  height: 1px;
+  background-color: #000000; /* Match the color of the heading */
+  margin: 1.5rem 0;
+}
+
+#about-us p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: left;
+}
+
+#about-us img {
+  max-height: 400px; /* Optional: Limit image height */
+  object-fit: cover; /* Ensures the image maintains its aspect ratio */
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #189AB4; /* Light grey background */
+  color: black; /* Dark text for readability */
+}
+
+footer a {
+  font-size: 1.5rem; /* Increase icon size */
+  margin: 0 8px; /* Add spacing between icons */
+  opacity: 0.5;
+  color: black;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+footer a:hover {
+ color: white; /* Bootstrap primary color for hover */
+ opacity: 1;
+}
+
