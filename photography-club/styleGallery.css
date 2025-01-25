@@ -2,11 +2,11 @@ body {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
-    background-color: #D4F1F4;
+    background-color: #f3f3f3;
 }
 
 h2 {
-    color: #05445E;
+    color: #333333;
     font-weight: 700;
 }
 
@@ -15,15 +15,23 @@ h2 i {
 }
 
 .navbar {
-    background-color: #189AB4;
+    background-color: #333333;
 }
 
 .nav-link {
     color: #fff;
 }
 
+.nav-link:hover {
+    color: #f4c542;
+}
+
 .card-body h5 {
-    color: #18A558;
+    color: #4a9d8e;
+}
+
+.card-text {
+    color: #333333;
 }
 
 .card {
@@ -35,7 +43,7 @@ h2 i {
 }
 
 footer {
-    background-color: #189AB4;
+    background-color: #4a9d8e;
     color: white;
 }
 

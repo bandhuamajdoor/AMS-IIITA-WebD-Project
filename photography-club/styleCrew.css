@@ -2,12 +2,21 @@ body {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
-    background-color: #D4F1F4;
+    background-color: #f3f3f3;
 }
 
 h2 {
-    color: #05445E;
+    color: #333333;
     font-weight: 700;
+}
+
+h3 {
+    color: #607d8b;
+}
+
+h5 {
+    color: #b87333;
+    font-weight: 550;
 }
 
 h2 i {
@@ -15,29 +24,19 @@ h2 i {
 }
 
 .navbar {
-    background-color: #189AB4;
+    background-color: #333333;
 }
 
 .nav-link {
     color: #fff;
 }
 
-.social-icons a {
-    color: #6c757d;
-    font-size: 1.2rem;
-    transition: color 0.3s;
-}
-
-.social-icons a:hover {
-    color: #189AB4;
-}
-
-.social-icons i {
-    margin-right: 2px;
+.nav-link:hover {
+    color: #f4c542;
 }
 
 footer {
-    background-color: #189AB4;
+    background-color: #4a9d8e;
     color: white;
 }
 
@@ -45,7 +44,6 @@ footer a i{
     font-size: 1.5rem;
     margin-right: 3px;
     opacity: 0.7;
-    color: white;
     transition: color 0.5s ease;
 }
 

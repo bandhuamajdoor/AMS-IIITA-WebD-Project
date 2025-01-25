@@ -2,17 +2,19 @@ body {
   font-family: "Poppins", serif;
   font-weight: 400;
   font-style: normal;
-  background-color: #D4F1F4;
+  background-color: #f3f3f3;
 }
 
-
 .navbar {
-  background-color: #189AB4;
+  background-color: #333333;
 }
 
 .nav-link {
   color: white;
-  opacity: 0.8;
+}
+
+.nav-link:hover {
+  color: #f4c542;
 }
 
 .carousel-item img {
@@ -91,7 +93,7 @@ body {
 }
 
 footer {
-  background-color: #189AB4;
+  background-color: #4a9d8e;
   color: white;
 }
 
