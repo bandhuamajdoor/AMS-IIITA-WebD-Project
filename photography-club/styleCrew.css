@@ -2,7 +2,7 @@ body {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
-    background-color: #f3f3f3;
+    background-color: #f4f4f4;
 }
 
 h2 {
@@ -27,8 +27,13 @@ h2 i {
     background-color: #333333;
 }
 
+.navbar-toggler {
+    background-color: #f4c542; 
+    border-color: #f4c542;
+}
+
 .nav-link {
-    color: #fff;
+    color: #f4f4f4;
 }
 
 .nav-link:hover {
@@ -36,8 +41,8 @@ h2 i {
 }
 
 footer {
-    background-color: #4a9d8e;
-    color: white;
+    background-color: #333333;
+    color: #f4f4f4;
 }
 
 footer a i{
@@ -48,7 +53,7 @@ footer a i{
 }
 
 footer a i:hover {
-    color: white;
+    color: #f4f4f4;
     opacity: 1;
 }
 
