@@ -85,13 +85,13 @@ body {
 .carousel-indicators button {
   width: 12px;
   height: 12px;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgb(244, 244, 244,0.75);
   margin: 0 5px;
   border: none;
 }
 
 .carousel-indicators .active {
-  background-color: #f4f4f4;
+  background-color: rgb(244, 244, 244);
 }
 
 #about-us h2 {
@@ -117,6 +117,10 @@ body {
   margin-top: 20px;
 }
 
+#contact-us {
+  background-color: #f0f0f0;
+}
+
 #contact-us h2 {
   font-size: 2.5rem;
   color: #f4c542;
@@ -138,7 +142,7 @@ body {
   margin-bottom: 10px;
 }
 
-#contact-us ul li i {
+#contact-us i {
   color: #f4c542;
 }
 
