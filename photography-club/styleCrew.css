@@ -1,3 +1,9 @@
+/* Highlight text in yellow */
+::selection {
+    background-color: #f4c542;
+    color: #333333;
+}
+
 body {
     font-family: "Poppins", serif;
     font-weight: 400;
